@@ -1,0 +1,18 @@
+{
+  "name": "ircc-news",
+  "version": "0.1.0",
+  "description": "Telegram alerts for IRCC news, policy updates, and Express Entry draws",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "check": "node src/index.js",
+    "check:dry": "DRY_RUN=1 node src/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
