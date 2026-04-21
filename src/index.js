@@ -32,7 +32,7 @@ async function run() {
     } else if (newDraws.length) {
       // Send oldest→newest so Telegram thread reads chronologically.
       for (const d of newDraws.slice().reverse()) {
-        await sendTelegram(formatDraw(d));
+        await sendTelegram(await formatDraw(d));
         alerts++;
       }
       state.expressEntry = { lastDrawNumber: newDraws[0].drawNumber };
@@ -58,7 +58,7 @@ async function run() {
       console.log(`[News] baseline set with ${feed.length} items`);
     } else if (fresh.length) {
       for (const item of fresh.slice().reverse()) {
-        await sendChunked(formatNews(item));
+        await sendChunked(await formatNews(item));
         alerts++;
       }
       state.news = {

@@ -5,6 +5,7 @@
 // Atom is used because Canada.ca's RSS endpoint is less reliable.
 
 import { XMLParser } from "fast-xml-parser";
+import { translateKo } from "../translate.js";
 
 const FEED =
   "https://api.io.canada.ca/io-server/gc/news/en/v2" +
@@ -40,14 +41,21 @@ export async function fetchNews() {
   }));
 }
 
-export function formatNews(item) {
-  const summary = stripTags(item.summary).slice(0, 350);
+export async function formatNews(item) {
+  const summary = stripTags(item.summary).slice(0, 400);
   const date = (item.published || item.updated || "").slice(0, 10);
+  const [titleKo, summaryKo] = await Promise.all([
+    translateKo(item.title),
+    translateKo(summary),
+  ]);
   return [
     `📰 <b>${escape(item.title)}</b>`,
+    `🇰🇷 <i>${escape(titleKo)}</i>`,
     date ? `📅 ${date}` : null,
     ``,
-    escape(summary) + (summary.length === 350 ? "…" : ""),
+    escape(summary) + (summary.length === 400 ? "…" : ""),
+    ``,
+    `🇰🇷 ${escape(summaryKo)}`,
     ``,
     `🔗 ${item.link}`,
   ]

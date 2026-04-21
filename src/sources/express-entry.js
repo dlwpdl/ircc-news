@@ -6,6 +6,8 @@
 // We track the highest drawNumber seen and emit Telegram alerts for
 // anything newer. First run sets the baseline silently.
 
+import { translateKo } from "../translate.js";
+
 const FEED = "https://www.canada.ca/content/dam/ircc/documents/json/ee_rounds_123_en.json";
 
 function fmtNumber(n) {
@@ -32,11 +34,13 @@ export async function fetchExpressEntry() {
     .sort((a, b) => b.drawNumber - a.drawNumber);
 }
 
-export function formatDraw(draw) {
+export async function formatDraw(draw) {
+  const drawNameKo = await translateKo(draw.drawName);
   const lines = [
     `🍁 <b>Express Entry Draw #${draw.drawNumber}</b>`,
     `📅 ${draw.drawDateFull}`,
     `🏷️ ${draw.drawName}`,
+    `   🇰🇷 <i>${drawNameKo}</i>`,
     `📊 CRS cutoff: <b>${draw.drawCRS}</b>`,
     `🎟️ ITAs: <b>${fmtNumber(draw.drawSize)}</b>`,
   ];
