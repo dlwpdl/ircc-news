@@ -2,7 +2,7 @@ name: IRCC news check
 
 on:
   schedule:
-    - cron: "0 12 * * *"  # daily at 12:00 UTC (≈ 8am ET / 9pm KST)
+    - cron: "*/5 * * * *"  # every 5 minutes (GitHub Actions minimum)
   workflow_dispatch:
 
 permissions:
