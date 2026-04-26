@@ -85,17 +85,31 @@ export function formatPnp(item) {
 // If parsing fails the function returns []; never throws.
 
 function extractBcDates(html) {
-  // BC publishes draw entries as <h3><strong>Month D, YYYY</strong></h3>
-  // followed by a paragraph describing the invitations. We just want the
-  // dates from the H3 headings.
-  const matches = [
+  // BC has two surfaces:
+  // 1. High Economic Impact draws as <h3><strong>Month D, YYYY</strong></h3>
+  //    followed by a paragraph (the most-recent of these is what dispatch
+  //    typically watches for).
+  // 2. Skills Immigration table with columns Date | Stream | Minimum Score |
+  //    Number of Invitations. Date cells can carry rowspan="2" when one
+  //    draw produced both Base + Regional. The first <td> after each <tr>
+  //    is the date when present; subsequent <tr> with rowspan>1 in effect
+  //    inherits the prior date.
+  // We collect dates from both surfaces, dedupe, and return newest-first.
+
+  const headingMatches = [
     ...html.matchAll(/<h3[^>]*><strong[^>]*>([A-Z][a-z]+ \d{1,2},?\s*\d{4})<\/strong>/g),
-  ];
-  return matches
-    .map((m) => parseLooseDate(m[1]))
-    .filter(Boolean)
-    .sort()
-    .reverse();
+  ].map((m) => parseLooseDate(m[1]));
+
+  // Pull every date-shaped string from inside any <td>. The Skills
+  // Immigration table's date column always renders a date in the cell;
+  // headers / score columns never produce these strings, so we don't
+  // need bespoke table-parsing.
+  const tableMatches = [
+    ...html.matchAll(/<td[^>]*>\s*([A-Z][a-z]+ \d{1,2},?\s*\d{4})/g),
+  ].map((m) => parseLooseDate(m[1]));
+
+  const all = [...headingMatches, ...tableMatches].filter(Boolean);
+  return [...new Set(all)].sort().reverse();
 }
 
 function extractOntarioDates(html) {
