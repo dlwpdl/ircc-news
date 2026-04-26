@@ -55,5 +55,36 @@
       "https://www.canada.ca/en/immigration-refugees-citizenship/news/2025/03/canada-to-request-a-further-extension-to-maintain-first-generation-limit-to-canadian-citizenship-by-descent.html",
       "https://www.canada.ca/en/immigration-refugees-citizenship/news/2025/03/speaking-notes-for-the-honourable-marc-miller-minister-of-immigration-refugees-and-citizenship-canada-takes-action-to-support-housing-with-new-immi.html"
     ]
+  },
+  "cicNews": {
+    "seenIds": [
+      "https://www.cicnews.com/?p=74496",
+      "https://www.cicnews.com/?p=74554",
+      "https://www.cicnews.com/?p=74544",
+      "https://www.cicnews.com/?p=74530",
+      "https://www.cicnews.com/?p=74509",
+      "https://www.cicnews.com/?p=74492",
+      "https://www.cicnews.com/?p=74403",
+      "https://www.cicnews.com/?p=74450",
+      "https://www.cicnews.com/?p=74479",
+      "https://www.cicnews.com/?p=74438"
+    ]
+  },
+  "parliament": {
+    "signatures": {
+      "13541873": "At consideration in committee in the Senate::Second reading::2025-06-18T06:35:00-04:00",
+      "13546143": "Royal assent received::Royal assent::2025-11-20T05:00:00-05:00",
+      "13551324": "Outside the Order of Precedence::First reading::2025-06-18T11:18:07.21-04:00",
+      "13551707": "Outside the Order of Precedence::First reading::2025-06-18T11:16:09.26-04:00",
+      "13583780": "Bill defeated::First reading::2026-03-25T11:25:00-04:00",
+      "13632609": "Royal assent received::Royal assent::2026-03-26T16:00:00-04:00",
+      "13865920": "Outside the Order of Precedence::First reading::2026-04-20T11:13:09.64-04:00"
+    }
+  },
+  "pnp": {
+    "latest": {
+      "bc": "2026-04-22",
+      "ontario": "2026-04-23"
+    }
   }
 }
