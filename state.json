@@ -175,7 +175,10 @@
       "https://www.cicnews.com/?p=76029",
       "https://www.cicnews.com/?p=75922",
       "https://www.cicnews.com/?p=76048",
-      "https://www.cicnews.com/?p=75393"
+      "https://www.cicnews.com/?p=75393",
+      "https://www.cicnews.com/?p=76073",
+      "https://www.cicnews.com/?p=76090",
+      "https://www.cicnews.com/?p=76094"
     ]
   },
   "parliament": {
@@ -191,8 +194,8 @@
   },
   "pnp": {
     "latest": {
-      "bc": "2026-05-06",
-      "ontario": "2026-04-30"
+      "bc": "2026-05-05",
+      "ontario": "2026-05-29"
     }
   }
 }
