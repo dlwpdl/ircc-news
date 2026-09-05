@@ -93,8 +93,6 @@
   },
   "cicNews": {
     "seenIds": [
-      "https://www.cicnews.com/?p=77224",
-      "https://www.cicnews.com/?p=77256",
       "https://www.cicnews.com/?p=77197",
       "https://www.cicnews.com/?p=77314",
       "https://www.cicnews.com/?p=77353",
@@ -292,7 +290,9 @@
       "https://www.cicnews.com/?p=79983",
       "https://www.cicnews.com/?p=79996",
       "https://www.cicnews.com/?p=79999",
-      "https://www.cicnews.com/?p=80034"
+      "https://www.cicnews.com/?p=80034",
+      "https://www.cicnews.com/?p=79962",
+      "https://www.cicnews.com/?p=80060"
     ]
   },
   "parliament": {
