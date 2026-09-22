@@ -95,7 +95,6 @@
   },
   "cicNews": {
     "seenIds": [
-      "https://www.cicnews.com/?p=77666",
       "https://www.cicnews.com/?p=77820",
       "https://www.cicnews.com/?p=77900",
       "https://www.cicnews.com/?p=77881",
@@ -294,7 +293,8 @@
       "https://www.cicnews.com/?p=80418",
       "https://www.cicnews.com/?p=80507",
       "https://www.cicnews.com/?p=80494",
-      "https://www.cicnews.com/?p=80525"
+      "https://www.cicnews.com/?p=80525",
+      "https://www.cicnews.com/?p=80539"
     ]
   },
   "parliament": {
@@ -310,7 +310,7 @@
   },
   "pnp": {
     "latest": {
-      "bc": "2026-09-17",
+      "bc": "2026-09-22",
       "ontario": "2026-07-20"
     }
   },
