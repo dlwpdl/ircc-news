@@ -1,6 +1,6 @@
 {
   "expressEntry": {
-    "lastDrawNumber": 445
+    "lastDrawNumber": 446
   },
   "news": {
     "seenIds": [
@@ -91,14 +91,13 @@
       "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/minister-metlege-diab-to-highlight-the-extension-of-the-federal-fuel-excise-tax-relief-on-gasoline-diesel-and-aviation-fuels-for-canadians.html",
       "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/the-government-of-canada-extends-the-federal-fuel-excise-tax-relief-on-gasoline-diesel-and-aviation-fuels-for-canadians.html",
       "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/minister-metlege-diab-highlights-the-extension-of-federal-fuel-excise-tax-relief-on-gasoline-diesel-and-aviation-fuels-for-canadians.html",
-      "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/minister-metlege-diab-to-make-an-announcement-regarding-francophone-immigration-in-st-johns.html"
+      "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/minister-metlege-diab-to-make-an-announcement-regarding-francophone-immigration-in-st-johns.html",
+      "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/canada-is-supporting-new-projects-to-promote-francophone-immigration-and-strengthen-francophone-minority-communities.html",
+      "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/09/projects-aimed-at-supporting-francophone-minority-communities.html"
     ]
   },
   "cicNews": {
     "seenIds": [
-      "https://www.cicnews.com/?p=78074",
-      "https://www.cicnews.com/?p=78087",
-      "https://www.cicnews.com/?p=78085",
       "https://www.cicnews.com/?p=78129",
       "https://www.cicnews.com/?p=78105",
       "https://www.cicnews.com/?p=78166",
@@ -295,7 +294,10 @@
       "https://www.cicnews.com/?p=80374",
       "https://www.cicnews.com/?p=80818",
       "https://www.cicnews.com/?p=80802",
-      "https://www.cicnews.com/?p=80796"
+      "https://www.cicnews.com/?p=80796",
+      "https://www.cicnews.com/?p=80839",
+      "https://www.cicnews.com/?p=80843",
+      "https://www.cicnews.com/?p=80794"
     ]
   },
   "parliament": {
