@@ -1,6 +1,6 @@
 {
   "expressEntry": {
-    "lastDrawNumber": 447
+    "lastDrawNumber": 448
   },
   "news": {
     "seenIds": [
@@ -320,6 +320,6 @@
     }
   },
   "processingTimes": {
-    "lastHash": "92a31c49e9d704d425b270761d85d903a525c5ca628fc246ca3e29ed1f2a4e14"
+    "lastHash": "5c33a516c0bc485819f0f3dfec27148516fb435b0c17a8a99f6edc9995de19ce"
   }
 }
