@@ -1,6 +1,6 @@
 {
   "expressEntry": {
-    "lastDrawNumber": 449
+    "lastDrawNumber": 450
   },
   "news": {
     "seenIds": [
@@ -101,7 +101,6 @@
   },
   "cicNews": {
     "seenIds": [
-      "https://www.cicnews.com/?p=78684",
       "https://www.cicnews.com/?p=78701",
       "https://www.cicnews.com/?p=78675",
       "https://www.cicnews.com/?p=78731",
@@ -300,7 +299,8 @@
       "https://www.cicnews.com/?p=81415",
       "https://www.cicnews.com/?p=81337",
       "https://www.cicnews.com/?p=81434",
-      "https://www.cicnews.com/?p=81430"
+      "https://www.cicnews.com/?p=81430",
+      "https://www.cicnews.com/?p=81461"
     ]
   },
   "parliament": {
