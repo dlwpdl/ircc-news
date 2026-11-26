@@ -120,10 +120,6 @@
   },
   "cicNews": {
     "seenIds": [
-      "https://www.cicnews.com/?p=80128",
-      "https://www.cicnews.com/?p=80134",
-      "https://www.cicnews.com/?p=80150",
-      "https://www.cicnews.com/?p=80163",
       "https://www.cicnews.com/?p=80181",
       "https://www.cicnews.com/?p=80177",
       "https://www.cicnews.com/?p=80194",
@@ -319,7 +315,11 @@
       "https://www.cicnews.com/?p=82870",
       "https://www.cicnews.com/?p=82819",
       "https://www.cicnews.com/?p=82792",
-      "https://www.cicnews.com/?p=82846"
+      "https://www.cicnews.com/?p=82846",
+      "https://www.cicnews.com/?p=82920",
+      "https://www.cicnews.com/?p=82909",
+      "https://www.cicnews.com/?p=82826",
+      "https://www.cicnews.com/?p=82888"
     ]
   },
   "parliament": {
@@ -335,7 +335,7 @@
   },
   "pnp": {
     "latest": {
-      "bc": "2026-11-17",
+      "bc": "2026-11-26",
       "ontario": "2026-07-20"
     }
   },
